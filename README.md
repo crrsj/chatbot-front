@@ -1,10 +1,10 @@
 # 🤖 Chatbot com Spring Boot
 
-Este projeto consiste em um **chatbot simples desenvolvido com Java e Spring Boot**, com persistência de dados utilizando banco H2 (posteriormente será migrado para PostgreSQL via Docker). A proposta é permitir interações entre o usuário e o bot, armazenando todas as mensagens trocadas em banco de dados e possibilitando consultas e testes via frontend ou Postman.
+Este projeto consiste em um **chatbot simples desenvolvido com Java e Spring Boot**, com persistência de dados utilizando banco H2. A proposta é permitir interações entre o usuário e o bot, armazenando todas as mensagens trocadas em banco de dados e possibilitando consultas e testes via frontend ou Postman.
 
 ## 🛠 Tecnologias utilizadas
 
-- Java 17
+- Java 21
 - Spring Boot
 - Spring Web
 - Spring Data JPA
