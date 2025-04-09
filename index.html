@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./chat.css">
+    <title>chatbot</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Chatbot com Spring</h1>
+
+    <div id="chatbox">
+        <div id="mensagens"></div>
+        <input type="text" id="entrada" placeholder="Digite sua mensagem..." />
+        <button onclick="enviar()">Enviar</button>
+        <button onclick="limparHistorico()" style="
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        height: 38px;
+        width: 100px;
+      ">Limpar</button>
+      </div>
+      <div id="chatbox">
+        <div>
+          <input type="text" id="filtroRemetente" placeholder="Filtrar por remetente (bot ou usuario)" />
+          <button onclick="carregarHistorico()">Filtrar</button>
+        </div>      
+      
+</body>
+<script src="./chat.js"></script>
+</html>
+
