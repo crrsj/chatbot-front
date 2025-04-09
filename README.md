@@ -26,3 +26,5 @@ Este projeto consiste em um **chatbot simples desenvolvido com Java e Spring Boo
 ---
 
 Este projeto faz parte do meu portfólio como desenvolvedor backend, demonstrando domínio na construção de APIs REST, persistência de dados, organização em camadas e integração com frontend para testes práticos.
+![chat9](https://github.com/user-attachments/assets/73324bdc-dd4a-4ec5-8ae4-8ba4830346da)
+![chat10](https://github.com/user-attachments/assets/898ad8b0-73ed-4a04-9671-df1c70258bac)
